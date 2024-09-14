@@ -226,7 +226,7 @@ label {
 
 .btn-blue {
 	border: 1px solid #005294;
-	padding: 7px 25px;
+	padding: 5px 5px;
 	display: inline-block;
 	background: #005294;
 	color: #fff;
@@ -339,15 +339,6 @@ abtn-blue:hover {
 	top: 50%
 }
 
-section.breadcrumb-outer {
-	background: url(../images/breadcrumb.jpg) no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	padding: 50px 0 0
-}
-
 .section-overlay {
 	position: absolute;
 	top: 0;
@@ -356,6 +347,8 @@ section.breadcrumb-outer {
 	width: 100%;
 	background: rgba(0, 0, 0, .5)
 }
+
+
 
 .breadcrumb-outer h2 {
 	color: #fff;
@@ -3247,7 +3240,7 @@ section.detail-tabs {
 .destination-fw-item {
 	margin-bottom: 30px;
 	border: 1px solid #f1f1f1;
-	padding: 20px;
+	padding: 4px;
 	transition: all ease-in-out .3s;
 	box-shadow: 0 0 10px #cccccc67
 }
@@ -3318,7 +3311,7 @@ section.detail-tabs {
 
 .fw-btns a.btn-blue {
 	display: block;
-	margin-top: 15px
+	margin-top: 5px
 }
 
 p.fw-info {
@@ -5278,7 +5271,7 @@ header.head-style-1 {
     display: inline-block;
     border-right: 1px solid #ffffff2e;
     padding: 1px 0;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .banner-style-1 #js_frm_040 {
@@ -7463,6 +7456,16 @@ body.style-tab::after {
 	}
 }
 
+
+.trip_list{
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	padding: 310px 0 250px 0;
+	background-size: cover;
+
+}
+
 @media(max-width:767px) {
 	.partners-logo {
 		padding: 30px 0
@@ -7556,6 +7559,16 @@ body.style-tab::after {
 	.breadcrumb-outer .tabs-navbar {
 		display: none
 	}
+
+   .trip_list{
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	padding: 160px 0 50px 0;
+	background-size: cover;
+
+}
+
 }
 
 @media(max-width:735px) {
@@ -7869,23 +7882,7 @@ body.style-tab::after {
 	}
 }
 
-@media(max-width:359px) {
-	.sale-content {
-		padding: 10px 30px
-	}
-}
 
-.datepicker {
-	border-radius: 0;
-	padding: 10px
-}
-
-.datepicker th,
-.datepicker td {
-	padding: 5px;
-	text-align: center;
-	font-size: 14px
-}
 
 /*mew css*/
 .top_geader_text a{
@@ -8110,6 +8107,10 @@ a {
 
 .author-content .author-bio .rating-stars li, .author-content .author-bio .author__meta {
     font-size: 15px;
+}
+
+.breadcrumb-outer{
+   padding: 250px 0 250px 0;
 }
 @media (max-width: 991px) {
   .navbar-nav-wrapper {
