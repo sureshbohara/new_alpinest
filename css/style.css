@@ -818,7 +818,7 @@ ul.nav-mini li i {
 }
 
 .navbar-sticky {
-	background: #fff;
+	background: #1d2532;
 	z-index: 99999;
 	box-shadow: 0 0 5px #ccc;
 	position: fixed !important;
@@ -957,7 +957,7 @@ ul.nav-mini li i {
 .login-btn a {
 	color: #fff;
 	font-size: 14px;
-	margin-left: 15px;
+	margin-left: 10px;
 	font-weight: 400
 }
 
@@ -1803,7 +1803,7 @@ section.bucket-list {
 
 .bucket-list .bucket-image {
 	width: 20%;
-	position: relative
+	position: relative;
 }
 
 .bucket-list .bucket-item-content {
@@ -1849,7 +1849,8 @@ section.bucket-list {
 
 @media(max-width:567px) {
 	.bucket-list .bucket-image {
-		width: 100%
+		width: 100%;
+		height: 110px;
 	}
 }
 
@@ -2174,7 +2175,7 @@ section.trusted-partners .row {
 }
 
 footer {
-	background: #060c17;
+	background: #1d2532;
 	position: relative
 }
 
@@ -5254,7 +5255,7 @@ header.head-style-1 {
 }
 
 .head-style-1 .navbar-sticky .nav.navbar-nav>li>a {
-	color: #333
+	color: #fff
 }
 
 .head-style-1 .slicknav_menu {
@@ -5262,11 +5263,11 @@ header.head-style-1 {
 }
 
 .head-style-1 .nav.navbar-nav li ul {
-	top: 40px
+	top: 70px
 }
 
 .head-style-1 .navbar-sticky .navbar-nav>li>ul {
-	top: 40px
+	top: 70px
 }
 
 .head-style-1 .nav.navbar-nav li ul li ul {
@@ -5274,10 +5275,10 @@ header.head-style-1 {
 }
 
 .contact-info-item {
-	display: inline-block;
-	border-right: 1px solid #ffffff2e;
-	padding: 3px 0;
-	margin-right: 15px
+    display: inline-block;
+    border-right: 1px solid #ffffff2e;
+    padding: 1px 0;
+    margin-right: 10px;
 }
 
 .banner-style-1 #js_frm_040 {
@@ -5712,7 +5713,7 @@ section.amazing-tours {
 
 .style-1 footer:before {
 	content: '';
-	background: #060c17cf;
+	background: #1d2532;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -7893,15 +7894,7 @@ body.style-tab::after {
 .whitelogo{
 
 }
-.login-btn a::after {
-    margin-left: 8px;
-    content: "";
-    position: absolute;
-    top: 18px;
-    width: 1px;
-    height: 16px;
-    background-color: #d9d0d078;
-}
+
 
 .destination-content h3 a { 
   color: #f04047!important;
@@ -8051,6 +8044,94 @@ a {
 
   }  
 
+.common-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*========= testimonial-card =========*/
+.testimonial-card {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 40px rgba(82, 85, 90, 0.05);
+  -moz-box-shadow: 0 0 40px rgba(82, 85, 90, 0.05);
+  box-shadow: 0 0 40px rgba(82, 85, 90, 0.05);
+  border: 1px solid rgba(128, 137, 150, 0.2);
+  padding: 25px 30px 30px 30px;
+}
+.testimonial-card .testi-desc-box {
+  padding-bottom: 25px;
+}
+.testimonial-card .testi__desc {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.testimonial-card .rating-stars {
+  margin-top: -2px;
+}
+
+/*============ testimonial-carousel ===============*/
+.testimonial-carousel.carousel-action .owl-nav div {
+  width: 35px;
+  height: 35px;
+  line-height: 34px;
+}
+
+.author-content .author-img {
+    width: 64px;
+    height: 64px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 15px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.author-content .author-img img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 0 40px rgba(82, 85, 90, 0.05);
+    -moz-box-shadow: 0 0 40px rgba(82, 85, 90, 0.05);
+    box-shadow: 0 0 40px rgba(82, 85, 90, 0.05);
+}
+
+.author-content .author-bio .author__title {
+    color: #0d233e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.author-content .author-bio .rating-stars li, .author-content .author-bio .author__meta {
+    font-size: 15px;
+}
+@media (max-width: 991px) {
+  .navbar-nav-wrapper {
+    display: none;
+  }
+}
+
+
+  .offcanvas-menu .dropdown-menu {
+      width: 300px; /* Adjust as needed */
+      padding: 1rem;
+    }
+    .offcanvas-menu .dropdown-item {
+      padding: 0.75rem 1.25rem;
+    }
+    .offcanvas-menu .dropdown-item:hover {
+      background-color: #f8f9fa;
+    }
+    .offcanvas-menu .dropdown-menu .dropdown-item {
+      padding: 0.5rem 1rem;
+    }
+    
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1440px;
