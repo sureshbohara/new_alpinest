@@ -1,0 +1,34 @@
+  .detail-trip {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .detail-trip.sticky {
+      display: block;
+      opacity: 1;
+      background-color: #1d2532;
+      transform: translateY(0);
+      box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+      z-index: 999;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+  }
+
+  .detail-trip.hidden {
+      display: none;
+      opacity: 0;
+      transform: translateY(-100%);
+  }
+  #detail-navs li a{
+    color: #fff;
+  }
+  #detail-navs li{
+   margin-bottom: 2px;
+  }
+  #detail-navs li .active {
+    color: #fb2323;
+}
+
